@@ -2,8 +2,8 @@ var a=prompt("enter first number");
 var b=prompt("enter second number");
 var c=prompt("enter third number");
 if(a>=b && a>=c)
-     alert("a is greater than both b and c");
+     alert(a+ "is greater");
    else if(b>=a && b>=c)
-     alert("b is less than both a and c"); 
+     alert(b+ "is greater"); 
    else
-     alert("c is greater than both a and b"); 
+     alert(c+ "is greater"); 

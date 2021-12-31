@@ -6,11 +6,11 @@ var g_class = {
     },
     'students': [{
         'name': 'rahul',
-        'marks': 80,
+        'marks': 70,
       },
       {
         'name': 'deepika singh',
-        'marks': 89,
+        'marks': 59,
       },
       {
         'name': 'akhilesh',
@@ -18,7 +18,7 @@ var g_class = {
       },
       {
         'name': 'Ayush',
-        'marks': 70,
+        'marks': 80,
       },
       {
        'name': 'hena',
@@ -26,7 +26,7 @@ var g_class = {
       },
       {
        'name': 'ganesh gupta',
-       'marks': 85,
+       'marks': 95,
       },
       {
        'name': 'yogesh',

@@ -1,0 +1,90 @@
+body{
+    padding: 0%;
+    margin: 0%;
+ }
+ 
+ 
+  
+ #middle{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 6, 152);
+     
+     
+    
+ }
+ #text{
+    margin-top: 100px;
+ }
+ img{
+    border-radius: 50px;
+    border: rgb(241, 7, 124) solid 4px;
+    margin-top: 60px;
+ }
+ #buttom{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+ }
+  
+ button{
+    background-color: rgb(8, 242, 250);
+    margin-top: 20px;
+     
+ }
+ button:hover{
+    cursor: pointer;
+ }
+ h1,p{
+    color: azure;
+ }
+ #footer{
+    display: flex;
+    justify-content: center;
+     
+ }
+ h2{
+    margin-left: 30px;
+ }
+ #last{
+    color: rgb(26, 236, 6);
+    margin-left: 600px;
+ }
+ h5{
+    margin-top: 30px;
+ }
+  
+/* styling to navbar */
+*{
+   margin:0;
+   padding: 0;
+}
+
+nav{
+   background-color: #02a3fa;
+   position: fixed;
+   width: 100%;
+}
+
+
+a{
+   text-decoration: none;
+   color:white;
+   font-size: 30px;
+}
+
+ul{
+   list-style: none;
+}
+
+li{
+   display: inline-block;
+   padding: 10px;
+   margin-right: 20px;
+   margin-left: 30px;
+}
+
+#signup{
+   position: absolute;
+   right: 100px;
+}

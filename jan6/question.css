@@ -1,0 +1,29 @@
+
+ hr {
+    width: 730px;
+ }
+ .inner_layer {
+    border-top: 10px solid #fa78ed;
+    border-left: 10px solid #e6639a;
+    border-right: 10px solid #8e63e6;
+    border-bottom: 10px solid #fa78ed;
+    max-width: 500px;
+    margin: 100px auto;
+    height: 1100px;
+    text-align: justify;
+ }
+ #chapter {
+    text-align: center;
+ }
+ #heading {
+    text-align: center;
+ }
+ .main_body {
+    text-align: justify;
+ }
+ .main_body::first-letter {
+    font-size: 70px;
+    float: left;
+    line-height: 54px;
+ }
+ 

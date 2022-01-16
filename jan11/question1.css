@@ -1,0 +1,32 @@
+body{
+    background-color:white;
+}
+.box{
+ background-color: rgb(235, 75, 12);
+ height: 15cm;
+ width: 10cm;
+ margin: 1cm;
+ padding-top: 0.5cm;
+}
+.cont{
+    background-color: rgb(241, 67, 9);
+    height: 14cm;
+    width: 9cm;
+    margin: auto;
+    overflow-y: scroll;
+}
+h2{
+    padding-left: 4.3cm;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+#p{
+    padding-left: 4cm;
+}
+#B{
+    background-color: darkturquoise;
+}
+#C{
+    background-color: white;
+}

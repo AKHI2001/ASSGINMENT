@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+ }
+ 
+ header {
+    width: 100vw;
+    height: 60px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 15;
+ }
+ .navigation {
+    margin: auto;
+    width: 975px;
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .nav_pt1 {
+    width: 280.5px;
+    height: 36px;
+ }
+ 
+ .nav_pt1 img {
+    height: 29px;
+ }
+ 
+ .nav_pt2 {
+    height: 36px;
+    border: 1px solid transparent;
+    background-color: #eeeeee;
+    width: 268px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+ }
+ .search {
+    font-size: 17px;
+    color: #fa0707;
+ }
+ 
+ .nav_pt3 {
+    width: 278px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 24px;
+    font-size: 24px;
+ }
+ body {
+    width: 100vw;
+ }
+ .section {
+    margin: auto;
+    width: 975px;
+    padding: 60px 20px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+ }
+ .right_section {
+    margin: 0;
+    width: 293px;
+    height: 340px;
+    position: fixed;
+    top: 120px;
+    left: 849px;
+    bottom: -194px;
+ }
+ .left_section {
+    margin: 0px;
+    width: 614px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding-bottom: 30px;
+ }
+ .user_details {
+    padding: 14px 20px 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .user_details .user_name {
+    display: flex;
+    align-items: center;
+ }
+ #left_section_img {
+    margin-right: 10px;
+    height: 42px;
+    width: 42px;
+    border: 2px solid rgb(241, 43, 8);
+    border-radius: 50%;
+ }
+ .user_details img {
+    height: 38px;
+    width: 38px;
+    padding: 3px;
+    background-color: #2c2929;
+    border-radius: 50%;
+ }
+ .fa-ellipsis-h {
+    color: #f30b0b;
+ }
+ .upld_img img {
+    width: 612px;
+ }
+ .react_sec {
+    width: 612px;
+    height: 54px;
+    margin-top: 4px;
+    padding: 6px 16px 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+ }
+ .fa-bookmark {
+    padding-left: 440px;
+ }
+ .react_sec :hover {
+    color: #04ee23;
+ }
+ .comment_sectiion {
+    padding-left: 16px;
+ }
+ .comment_sectiion > p {
+    margin-bottom: 8px;
+ }
